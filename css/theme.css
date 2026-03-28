@@ -168,10 +168,40 @@ header {
 
 /* Narration */
 
-audio {
+.narration-sample {
     float: left;
-    margin: 0 10% 30px;
+    margin: 0 10% 20px;
     width: 80%;
+}
+
+audio {
+    height: 45px;
+    width: 70%;
+}
+
+.narration-sample a {
+    background: rgb(78, 168, 182);
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 40px;
+    margin: 5px 0 0;
+    text-align: center;
+    width: 25%;
+}
+
+.audio-download {
+    color: rgb(27, 49, 87);
+    float: right;
+    margin: 0 10% 20px;
+    text-align: left;
+    text-decoration: underline;
+    width: 80%;
+}
+
+.audio-download:visited {
+    color: rgba(60, 100, 127);
 }
 
 .narration-link {
